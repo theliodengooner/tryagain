@@ -1,0 +1,92 @@
+/* --- BACKGROUND & BASE CONFIGURATION --- */
+body {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSYI7T5EsISeo_snm-SAqyi-2gNGA1_6aXgPnCEAg1GFA&s=10") !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-attachment: fixed !important;
+    background-repeat: no-repeat !important;
+    color: #FFFFFF !important;
+}
+
+/* --- THE MAIN CONTAINER --- */
+/* The main box holding your den info. Semi-transparent dark blue to let the background show through */
+.container.main {
+    background: rgba(23, 42, 69, 0.85) !important;
+    border: 1px solid #3066BE !important;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(48, 102, 190, 0.4);
+}
+
+/* --- HEADERS & TITLES --- */
+h1, h2, h3, .b, strong {
+    color: #FFFFFF !important;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
+}
+
+/* --- SIDEBAR & PANELS --- */
+/* Covers your stats panel, chat elements, and panel blocks */
+.sidebar, .panel, .panel-main {
+    background: rgba(23, 42, 69, 0.9) !important;
+    border: 1px solid #3066BE !important;
+    color: #C5CBD3 !important; /* Silver font for secondary text */
+}
+
+/* --- NAVIGATION BAR --- */
+.navbar {
+    background: #112240 !important;
+    border-bottom: 2px solid #3066BE !important;
+}
+
+.navbar li a {
+    color: #C5CBD3 !important; /* Silver text */
+}
+
+.navbar li a:hover {
+    background: #3066BE !important;
+    color: #FFFFFF !important; /* Bright white when hovered */
+}
+
+/* --- CAVE & BEETLE GRIDS --- */
+.cave-grid, .beetle-grid {
+    background: rgba(17, 34, 64, 0.9) !important;
+    border: 1px solid #3066BE !important;
+    color: #FFFFFF !important;
+}
+
+/* --- TABLES & PROGRESS BARS --- */
+table.table, td, th {
+    background: transparent !important;
+    color: #C5CBD3 !important;
+}
+
+.progress {
+    background-color: #112240 !important;
+    border: 1px solid #3066BE !important;
+}
+
+.progress-bar {
+    background-color: #3066BE !important;
+}
+
+/* --- LINKS --- */
+a:link, a:visited {
+    color: #4CC9F0 !important; /* Bright ice-blue link color for readability */
+    text-decoration: none;
+}
+
+a:hover, a:active {
+    color: #FFFFFF !important; /* Glows white on hover */
+    text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.6);
+}
+
+/* --- BREADCRUMBS & FOOTER --- */
+.breadcrumb {
+    background: rgba(17, 34, 64, 0.8) !important;
+    color: #C5CBD3 !important;
+}
+
+.footer {
+    background: rgba(10, 25, 47, 0.9) !important;
+    border-top: 1px solid #3066BE !important;
+    color: #C5CBD3 !important;
+}
